@@ -1,4 +1,5 @@
 import os
+#THIS SHOULD UPDATE
 code = input("send raw file\n")
 def extract_last_segment(url):
     # Split the URL by '/' and get the last segment after 'raw'
