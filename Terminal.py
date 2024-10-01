@@ -29,7 +29,7 @@ def main():
           os.system(f"python3 {codename}")
       elif cmd == "end":
           start = False
-       os.system("sync")   
+      os.system("sync")   
 # Make sure to call the main function
 if __name__ == "__main__":
     main()
