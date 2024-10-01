@@ -17,9 +17,8 @@ def main():
       codename = extract_last_segment(code)
       if cmd == "run":
          os.system(f"wget {code}")
-         os.system(f"python3 {codename}")
-         
-       os.system("sync")   
+         os.system(f"python3 {codename}")   
+      os.system("sync")   
 # Make sure to call the main function
 if __name__ == "__main__":
     main()
